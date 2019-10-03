@@ -1,0 +1,57 @@
+# blockRing™ : making usable blockchains ...
+
+
+A blockchain is 3 things :
+
+1. a chain for documents (blocks) secured with a hash function (in our case we picked [shake-224][sk224])
+   an easy way to achieve this is simply storing the documents in a "[content-addressable-storage][CAS]"
+   and referring the previous document in each documents and store
+   
+2. a pointer to the top of the chain ([mutable]) and a mechanism to update it (consensus)
+
+   any permissionless system requires 
+ 
+3. A DDoS / Sybil attack mitigation technique (validation)
+
+[sk224]: http://github.com/michel47/bin/blocl/master/sk224
+[CAS]: {{DUCK}}=!g+IPFS+content+addressable+storage
+[mutable]: {{DUCK}}=!g+blockRing™+mutable
+[consensus]: {{DUCK}}=!g+blockchain+consensus+is+No+concensus
+
+<!-- consensus: stop the aberation : bitcoin is the most locked-up software ever can't change a bit !
+  code as "immutable" law ! === that's jail for life !
+
+  and is against any form of life and its natural evolution ...
+-->
+
+
+
+### Current implementation of blockchain have lots of limitations slowing down its adoption.
+
+### Our blockRing™ technology objective is to address the following problems
+
+* energy efficiency (no wasteful mining)
+* no central influence or single point of failure (true distribution of power)
+* resilient to censorship
+* private
+* incorruptible
+
+
+Our blockRings are permissionned and are fragmented locally to improve security
+
+we store data in immutable object, and collect sets of immutable into mutable
+we update and sign within a WoT.
+
+For truly anonymous transactions, we use [pull request][PR] technique with a rate filter 
+
+All physical individual have a "tamper proof self sovereign identity" to be authenticated
+for every values exchanges.
+
+Process for cashout is at the "physical world speed" an can be therefore "manually" verified
+
+
+
+[PR]: {{DUCK}}=Interrupt+Line+on+the+blockchain
+
+
+
