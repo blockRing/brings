@@ -5,7 +5,7 @@ description: we explain here the basis of blockring Technology and its immediate
 ---
 # blockRing™ (%domain%) ...
 
-BlockRing™ = DAG + CxRDT + KYC ([*la bloc-chaîne écosociale*]({{DUCK}}=!g+la+block-chaîne+écosociale)
+BlockRing™ = DAG + CxRDT + KYC ([*la bloc-chaîne écosociale*](%search%=!g+la+block-chaîne+écosociale))
 
 
 ### what is a [blockRing™][brng]
