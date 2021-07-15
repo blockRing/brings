@@ -1,0 +1,20 @@
+@ORIGIN blockringtm.ml
+$TTL 14400
+@               IN      SOA     ns1.cantoute.com. hostmaster.cantoute.com. (
+                                2021071501 ; serial number
+                                8H         ; refresh period
+                                2H         ; retry period
+                                4W         ; expire time
+                                1D )       ; minimum ttl
+                IN      NS      ns1.cantoute.com.
+                IN      NS      ns2.cantoute.com.
+                IN      A       104.198.14.52
+        600     IN      MX      10 mail.mailinator.com.
+        600     IN      TXT     "dnslink=/ipns/QmNzufyrKrzzL3eqNKe6iuDV875SN1Egn2PkKeWxtpNeTk"
+ipfs    600     IN      MX      10 mail.cantoute.com.  
+ipfs    600     IN      TXT     "v=spf1 +a +mx +include:spf.cantoute.com -all"
+ipfs    600     IN      CNAME   web.cantoute.com.
+
+
+;www            CNAME   @
+www     3600    IN      CNAME   cadavre-exquis-b5d9571.netlify.com.
